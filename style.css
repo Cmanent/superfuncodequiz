@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(74, 211, 74);
+  color: ivory;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* BEGIN MAIN CONTAINER */
+
+#container {
+  min-width: 600px;
+}
+
+/* END MAIN CONTAINER */
+
+
+/* BEGIN HEADER */
+
+#header {
+  margin-top: 20px;
+}
+
+#titleBox {
+  background-color: rgba(72, 207, 196, 0.7);
+  text-align: center;
+  border-radius: 50%;
+  border: 13px solid rgb(253, 208, 7);
+}
+
+#titleText {
+  color: rgba(255, 0, 0, 0.7);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 70px;
+  font-weight: bolder;
+  text-shadow: 
+      0 1px 0 #ccc,
+      0 2px 0 #c9c9c9,
+      0 3px 0 #bbb,
+      0 4px 0 #b9b9b9,
+      0 5px 0 #aaa,
+      0 6px 1px rgba(0,0,0,.1),
+      0 0 5px rgba(0,0,0,.1),
+      0 1px 3px rgba(0,0,0,.3),
+      0 3px 5px rgba(0,0,0,.2),
+      0 5px 10px rgba(0,0,0,.25),
+      0 10px 10px rgba(0,0,0,.2),
+      0 20px 20px rgba(0,0,0,.15);
+
+  mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(255,0,0,.8)), to(rgba(0,0,0,1)));
+}
+
+/* END HEADER */
+
+/* BEGIN MAIN BOX */
+
+#mainBox {
+  background-color:rgb(253, 208, 7);
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+#quizBox {
+  margin-top: 20px;
+  width: 100%;
+  height: 92%;
+  background-color: rgba(72, 207, 196, 0.7) ;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#timerBox {
+  max-width: 100px;
+  float: right;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.7);
+  border: 1px solid #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#timer {
+  font-weight: bold;
+}
+
+.question {
+  width: 70%;
+  margin-left: 15%;
+  font-size: 30px;
+}
+
+ul {
+  margin-left: 35%;
+  list-style-type: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+input {
+  color: rgba(255, 0, 0, 0.7);
+  font-weight: bold;
+  display: inline;
+  margin: 5px;
+}
+
+.quizMessage {
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.8);
+  font-weight: bold;
+}
+
+.result {
+  font-size: 20px;
+}
+
+/* END MAIN BOX */
+
+/* BEGIN FOOTER */
+
+#footerBox {
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color:rgba(245, 245, 245, 0.562) ;
+  color: black;
+  text-align: left;
+}
+
+#footer p {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* END FOOTER */
+
+/* ************************* */
+
+/* BEGIN RESPONSIVE CHANGES */
+
+@media screen and (max-width:808px) {
+
+  
+
+}
+
+/* END RESPONSIVE CHANGES */

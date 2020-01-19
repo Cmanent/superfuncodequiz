@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>Food Trivia</title>
+      
+      <link rel="stylesheet" href="style.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy">
+      <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container-fluid" id="container">
+
+            <!-- Header Row -->
+            <div class="row" id="header">
+        
+                <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3" id="titleSpacer"></div>
+        
+                <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6" id="titleBox">
+                    <div id="titleText">!Food Trivia!</div>
+                </div>
+        
+            </div>
+            <!-- End Header Row -->
+
+            <!-- Main Row -->
+            <div class="row" id="mainRow">
+                
+                <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3" id="mainSpacer"></div>
+        
+                <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6" id="mainBox">
+
+                    <div id="quizBox">
+
+                        <div class="quizContainer">
+                            <div id="timerBox">
+                                <h4>Question Timer:</h4>
+                                <div id="timer">15</div>
+                            </div>
+                            <br>
+                            <div class="question"></div>
+                            <br><br>
+                            <ul class="choiceList"></ul>
+                            <br><br>
+                            <input type="button" class="nextButton" value="NEXT QUESTION"></input>
+                            <input type="button" id="pauseButton" value="PAUSE"></input>
+                            <input type="button" id="resetButton" value="RESET"></input>
+                            <br><br>
+                            <div class="quizMessage"></div>
+                            <div class="result"></div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+        
+            </div>
+            <!-- End Main Row -->
+
+        </div>
+
+        <!-- Begin Footer -->
+        <div id="footerBox">
+            
+            <div id="footer">
+                <p>Carina Manent</p>
+            </div>
+
+        </div>
+        <!-- End Footer -->
+
+        <!-- Remote jQuery, javascript file for the Bootstrap's javascript file to function -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Local JavaScript file -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
