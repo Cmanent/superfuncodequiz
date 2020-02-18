@@ -12,6 +12,10 @@ I used standard Jquery to write this quiz. I used some simple variable and funct
 The styling of the page is very old school, but I love it. The way the content pops off the page is really cool and I hope anyone who uses it will enjoy it the content and find the styling fun! I hope you can learn something from my FOOD TRIVIA! Have fun and good luck to anyone who dares enter the world of PLANT BASED KNOWLEDGE!
 
 
+![trivia](https://user-images.githubusercontent.com/57699329/74699031-d6f05e80-51bc-11ea-9fdf-046db6300fe9.png)
+
+
+
 GIT HUB URL
 
  https://cmanent.github.io/superfuncodequiz/
